@@ -1,0 +1,15 @@
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\bin\Debug\net6.0\XSDtoLibrary.exe
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\bin\Debug\net6.0\XSDtoLibrary.deps.json
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\bin\Debug\net6.0\XSDtoLibrary.runtimeconfig.json
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\bin\Debug\net6.0\XSDtoLibrary.dll
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\bin\Debug\net6.0\XSDtoLibrary.pdb
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\obj\Debug\net6.0\XSDtoLibrary.csproj.AssemblyReference.cache
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\obj\Debug\net6.0\XSDtoLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\obj\Debug\net6.0\XSDtoLibrary.AssemblyInfoInputs.cache
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\obj\Debug\net6.0\XSDtoLibrary.AssemblyInfo.cs
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\obj\Debug\net6.0\XSDtoLibrary.csproj.CoreCompileInputs.cache
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\obj\Debug\net6.0\XSDtoLibrary.dll
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\obj\Debug\net6.0\refint\XSDtoLibrary.dll
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\obj\Debug\net6.0\XSDtoLibrary.pdb
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\obj\Debug\net6.0\XSDtoLibrary.genruntimeconfig.cache
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\XSDtoLibrary\obj\Debug\net6.0\ref\XSDtoLibrary.dll
