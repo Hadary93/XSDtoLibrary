@@ -5,12 +5,12 @@ namespace opp
 	public class PhysicalTrainUnitIdentifier
 	{
 		[XmlAttribute("trainRunningNumber")]
-		public string trainRunningNumber {get;set;}
+		public string? trainRunningNumber {get;set;}
 		[XmlAttribute("additionalTrainRunningNumber")]
-		public string additionalTrainRunningNumber {get;set;}
+		public string? additionalTrainRunningNumber {get;set;}
 		[XmlAttribute("tafTapTsiTrainID")]
-		public string tafTapTsiTrainID {get;set;}
+		public string? tafTapTsiTrainID {get;set;}
 		[XmlAttribute("leadingOnBoardUnitId")]
-		public string leadingOnBoardUnitId {get;set;}
+		public string? leadingOnBoardUnitId {get;set;}
 	}
 }

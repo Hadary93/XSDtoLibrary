@@ -7,11 +7,12 @@ namespace tp
 		[XmlArray(Order=0)]
 		[XmlArrayItem("driveProtectionSection", Namespace = "https://erju.org/")]
 		public List<tp.DriveProtectionSection>? driveProtectionSections;
-		[XmlElement(Order=1)]		public tp.ProtectedInfraElement? protectedInfraElements {get;set;}
+		[XmlElement(Order=1)]
+		public tp.ProtectedInfraElement? protectedInfraElements {get;set;}
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("name")]
-		public string name {get;set;}
+		public string? name {get;set;}
 		[XmlAttribute("dependenciesType")]
 		public tp.DPSDependencyType dependenciesType {get;set;}
 		[XmlAttribute("dependencies")]

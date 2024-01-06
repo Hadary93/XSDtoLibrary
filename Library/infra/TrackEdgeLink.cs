@@ -5,11 +5,11 @@ namespace infra
 	public class TrackEdgeLink
 	{
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("trackEdgeA")]
-		public string trackEdgeA {get;set;}
+		public string? trackEdgeA {get;set;}
 		[XmlAttribute("trackEdgeB")]
-		public string trackEdgeB {get;set;}
+		public string? trackEdgeB {get;set;}
 		[XmlAttribute("startOfA")]
 		public bool startOfA {get;set;}
 		[XmlAttribute("startOfB")]

@@ -5,7 +5,7 @@ namespace infra
 	public class TrackEdgeSection
 	{
 		[XmlAttribute("trackEdge")]
-		public string trackEdge {get;set;}
+		public string? trackEdge {get;set;}
 		[XmlAttribute("skipFromPathStart")]
 		public uint skipFromPathStart {get;set;}
 		[XmlAttribute("skipFromPathEnd")]

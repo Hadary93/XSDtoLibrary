@@ -8,7 +8,7 @@ namespace infra
 		[XmlArrayItem("balis", Namespace = "https://erju.org/")]
 		public List<infra.Balise>? balises;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("nidBG")]
 		public uint nidBG {get;set;}
 		[XmlAttribute("nidC")]

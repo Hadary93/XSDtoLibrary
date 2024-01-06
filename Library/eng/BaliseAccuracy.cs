@@ -5,7 +5,7 @@ namespace eng
 	public class BaliseAccuracy
 	{
 		[XmlAttribute("baliseId")]
-		public string baliseId {get;set;}
+		public string? baliseId {get;set;}
 		[XmlAttribute("accuracy")]
 		public uint accuracy {get;set;}
 	}

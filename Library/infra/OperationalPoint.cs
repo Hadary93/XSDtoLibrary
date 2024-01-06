@@ -11,9 +11,9 @@ namespace infra
 		[XmlArrayItem("platform", Namespace = "https://erju.org/")]
 		public List<infra.Platform>? platforms;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("name")]
-		public string name {get;set;}
+		public string? name {get;set;}
 		[XmlAttribute("type")]
 		public infra.OPType type {get;set;}
 	}

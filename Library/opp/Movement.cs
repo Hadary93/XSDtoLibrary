@@ -14,10 +14,10 @@ namespace opp
 		[XmlArrayItem("restriction", Namespace = "https://erju.org/")]
 		public List<opp.MovementRestriction>? restrictions;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("issuedAt")]
-		public string issuedAt {get;set;}
+		public string? issuedAt {get;set;}
 		[XmlAttribute("domainDataVersionRef")]
-		public string domainDataVersionRef {get;set;}
+		public string? domainDataVersionRef {get;set;}
 	}
 }

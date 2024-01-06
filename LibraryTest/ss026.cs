@@ -4,10 +4,10 @@ using System.Xml;
 using System.Xml.Serialization;
 public class Ss026
 {
-	private string ValidationOutput {get;set;}
+	private string? ValidationOutput {get;set;}
 	private StringWriter writer = new StringWriter();
 	private XmlSerializerNamespaces namespaces = new XmlSerializerNamespaces();
-        private void ValidationCallback(object sender, System.Xml.Schema.ValidationEventArgs e)
+        private void ValidationCallback(object? sender, System.Xml.Schema.ValidationEventArgs e)
         {
             
             if (e.Severity == XmlSeverityType.Warning)

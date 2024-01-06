@@ -5,5 +5,5 @@ using System.Collections.Generic;
 public class WarningMeasureEventRef
 {
 	[XmlAttribute(AttributeName ="ref")]
-	public string Ref {get;set;}
+	public string? Ref {get;set;}
 }

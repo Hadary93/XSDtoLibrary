@@ -5,9 +5,9 @@ namespace infra
 	public class TrainDetector
 	{
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("trackEdge")]
-		public string trackEdge {get;set;}
+		public string? trackEdge {get;set;}
 		[XmlAttribute("pos")]
 		public uint pos {get;set;}
 		[XmlAttribute("type")]

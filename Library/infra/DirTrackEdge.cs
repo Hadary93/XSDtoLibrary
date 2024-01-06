@@ -5,7 +5,7 @@ namespace infra
 	public class DirTrackEdge
 	{
 		[XmlAttribute("trackEdge")]
-		public string trackEdge {get;set;}
+		public string? trackEdge {get;set;}
 		[XmlAttribute("sameDir")]
 		public bool sameDir {get;set;}
 	}

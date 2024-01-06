@@ -7,6 +7,7 @@ namespace ss026
 		[XmlArray(Order=0)]
 		[XmlArrayItem("pbd", Namespace = "https://erju.org/")]
 		public List<ss026.PermittedBrakingDist>? pbds;
-		[XmlElement(Order=1)]		public D_trackinitRef? d_trackinit {get;set;}
+		[XmlElement(Order=1)]
+		public D_trackinitRef? d_trackinit {get;set;}
 	}
 }

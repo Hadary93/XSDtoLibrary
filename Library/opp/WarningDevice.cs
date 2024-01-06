@@ -5,7 +5,7 @@ namespace opp
 	public class WarningDevice
 	{
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("type")]
 		public opp.DeviceType type {get;set;}
 	}

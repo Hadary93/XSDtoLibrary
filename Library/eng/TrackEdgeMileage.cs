@@ -8,6 +8,6 @@ namespace eng
 		[XmlArrayItem("point", Namespace = "https://erju.org/")]
 		public List<eng.MileagePoint>? points;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 	}
 }

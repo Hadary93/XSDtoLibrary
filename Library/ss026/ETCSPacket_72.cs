@@ -33,6 +33,6 @@ namespace ss026
 		[XmlAttribute("nid_rbc")]
 		public uint nid_rbc {get;set;}
 		[XmlAttribute("text")]
-		public string text {get;set;}
+		public string? text {get;set;}
 	}
 }

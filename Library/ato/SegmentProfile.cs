@@ -4,8 +4,10 @@ namespace ato
 	[XmlRoot(Namespace = "https://erju.org/ato", ElementName = "segmentProfile")]
 	public class SegmentProfile
 	{
-		[XmlElement(Order=0)]		public ato.AtoTSContactInfo? atotsContactInfo {get;set;}
-		[XmlElement(Order=1)]		public ato.StaticSpeedProfileStart? staticSpeedProfileStart {get;set;}
+		[XmlElement(Order=0)]
+		public ato.AtoTSContactInfo? atotsContactInfo {get;set;}
+		[XmlElement(Order=1)]
+		public ato.StaticSpeedProfileStart? staticSpeedProfileStart {get;set;}
 		[XmlArray(Order=2)]
 		[XmlArrayItem("staticSpeedProfileChange", Namespace = "https://erju.org/")]
 		public List<ato.StaticSpeedProfileChange>? staticSpeedProfileChanges;
@@ -15,7 +17,8 @@ namespace ato
 		[XmlArray(Order=4)]
 		[XmlArrayItem("curveChange", Namespace = "https://erju.org/")]
 		public List<ato.CurveChange>? curveChanges;
-		[XmlElement(Order=5)]		public ato.VoltageStart? voltageStart {get;set;}
+		[XmlElement(Order=5)]
+		public ato.VoltageStart? voltageStart {get;set;}
 		[XmlArray(Order=6)]
 		[XmlArrayItem("voltageChange", Namespace = "https://erju.org/")]
 		public List<ato.VoltageChange>? voltageChanges;

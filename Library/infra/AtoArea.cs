@@ -8,8 +8,8 @@ namespace infra
 		[XmlArrayItem("timingPoint", Namespace = "https://erju.org/")]
 		public List<infra.TimingPoint>? timingPoints;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("versionTimestamp")]
-		public string versionTimestamp {get;set;}
+		public string? versionTimestamp {get;set;}
 	}
 }

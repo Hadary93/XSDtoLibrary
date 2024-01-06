@@ -1,11 +1,11 @@
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\bin\Debug\net6.0\Library.deps.json
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\bin\Debug\net6.0\Library.dll
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\bin\Debug\net6.0\Library.pdb
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\obj\Debug\net6.0\Library.csproj.AssemblyReference.cache
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\obj\Debug\net6.0\Library.GeneratedMSBuildEditorConfig.editorconfig
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\obj\Debug\net6.0\Library.AssemblyInfoInputs.cache
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\obj\Debug\net6.0\Library.AssemblyInfo.cs
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\obj\Debug\net6.0\Library.csproj.CoreCompileInputs.cache
-C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\bin\Debug\net6.0\Library.deps.json
-C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\bin\Debug\net6.0\Library.dll
-C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\bin\Debug\net6.0\Library.pdb
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\obj\Debug\net6.0\Library.dll
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\obj\Debug\net6.0\refint\Library.dll
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\Library\obj\Debug\net6.0\Library.pdb

@@ -4,13 +4,14 @@ namespace opp
 	[XmlRoot(Namespace = "https://erju.org/opp", ElementName = "stopDescription")]
 	public class StopDescription
 	{
-		[XmlElement(Order=0)]		public opp.StopTimes? stopTimes {get;set;}
+		[XmlElement(Order=0)]
+		public opp.StopTimes? stopTimes {get;set;}
 		[XmlArray(Order=1)]
 		[XmlArrayItem("trainUnitActivity", Namespace = "https://erju.org/")]
 		public List<opp.TrainUnitActivity>? trainUnitActivities;
 		[XmlArray(Order=2)]
 		[XmlArrayItem("platformEdge", Namespace = "https://erju.org/")]
-		public List<PlatformEdgeRef?>? platformEdges;
+		public List<PlatformEdgeRef>? platformEdges;
 		[XmlArray(Order=3)]
 		[XmlArrayItem("passengerTransferActivity", Namespace = "https://erju.org/")]
 		public List<opp.PassengerTransferActivity>? passengerTransferActivities;

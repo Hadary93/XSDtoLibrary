@@ -5,7 +5,7 @@ namespace infra
 	public class TrackEdge
 	{
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("length")]
 		public uint length {get;set;}
 	}

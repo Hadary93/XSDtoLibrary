@@ -14,6 +14,6 @@ namespace infra
 		[XmlArrayItem("cantSample", Namespace = "https://erju.org/")]
 		public List<infra.CantSamplePoint>? cantSamples;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 	}
 }

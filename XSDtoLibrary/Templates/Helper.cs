@@ -9,13 +9,13 @@ namespace Templates
         public string? targetNameSpace = string.Empty;
         public string? name = string.Empty;
         private static Dictionary<string, string> dataTypesMap = new() {
-            {"xs:string","string"},
+            {"xs:string","string?"},
             {"xs:unsignedInt","uint"},
             {"xs:boolean","bool"},
             {"xs:int","int"},
             {"xs:decimal","double"},
-            {"xs:base64Binary","string"},
-            {"xs:date","string"}
+            {"xs:base64Binary","string?"},
+            {"xs:date","string?"}
         };
         /// <summary>
         /// Create a file for this Template.
@@ -55,11 +55,11 @@ namespace Templates
                 }
                 else if (xsdType.Contains("."))
                 {
-                    return xsdType.Split(".")[1];
+                    return $"{xsdType.Split(".")[1]}";
                 }
                 else if (!xsdType.Contains("xs:"))
                 {
-                    return xsdType.Replace(':', '.');
+                    return $"{xsdType.Replace(':', '.')}";
                 }
                 else
                 {

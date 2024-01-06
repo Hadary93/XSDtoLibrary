@@ -5,8 +5,8 @@ namespace ato
 	public class TimingPointMapping
 	{
 		[XmlAttribute("infraTimingPoint")]
-		public string infraTimingPoint {get;set;}
+		public string? infraTimingPoint {get;set;}
 		[XmlAttribute("atoTimingPoint")]
-		public string atoTimingPoint {get;set;}
+		public string? atoTimingPoint {get;set;}
 	}
 }

@@ -4,7 +4,8 @@ namespace ss026
 	[XmlRoot(Namespace = "https://erju.org/ss026", ElementName = "eTCSPacket_3")]
 	public class ETCSPacket_3
 	{
-		[XmlElement(Order=0)]		public ss026.NKV? nkvItem {get;set;}
+		[XmlElement(Order=0)]
+		public ss026.NKV? nkvItem {get;set;}
 		[XmlAttribute("d_validnv")]
 		public uint d_validnv {get;set;}
 		[XmlAttribute("nid_c")]

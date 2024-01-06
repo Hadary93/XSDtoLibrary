@@ -8,7 +8,7 @@ namespace eng
 		[XmlArrayItem("trackEdgeSectionItem", Namespace = "https://erju.org/")]
 		public List<infra.TrackEdgeSection>? trackEdgeSection;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("type")]
 		public eng.SleepersType type {get;set;}
 	}

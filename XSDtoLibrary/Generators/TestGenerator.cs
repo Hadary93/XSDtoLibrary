@@ -46,7 +46,7 @@ namespace XSDtoLibrary.Generators
 
                 content += $"public class {Helper.UpperCase(NameSpace)}\n";
                 content += $"{{\n";
-                content += $"\tprivate string ValidationOutput {{get;set;}}\n\tprivate StringWriter writer = new StringWriter();\r\n\tprivate XmlSerializerNamespaces namespaces = new XmlSerializerNamespaces();";
+                content += $"\tprivate string? ValidationOutput {{get;set;}}\n\tprivate StringWriter writer = new StringWriter();\r\n\tprivate XmlSerializerNamespaces namespaces = new XmlSerializerNamespaces();";
                 content += AddCallBackFunction();
                 content += AddValidateFunction();
 
@@ -263,7 +263,7 @@ namespace XSDtoLibrary.Generators
         private string AddCallBackFunction()
         {
 
-            return $"\n        private void ValidationCallback(object sender, System.Xml.Schema.ValidationEventArgs e)\r\n        {{\r\n            \r\n            if (e.Severity == XmlSeverityType.Warning)\r\n            {{\r\n                ValidationOutput +=  e.Message;\r\n            }}\r\n            else if (e.Severity == XmlSeverityType.Error)\r\n            {{\r\n                ValidationOutput += e.Message;\r\n            }}\r\n        }}";
+            return $"\n        private void ValidationCallback(object? sender, System.Xml.Schema.ValidationEventArgs e)\r\n        {{\r\n            \r\n            if (e.Severity == XmlSeverityType.Warning)\r\n            {{\r\n                ValidationOutput +=  e.Message;\r\n            }}\r\n            else if (e.Severity == XmlSeverityType.Error)\r\n            {{\r\n                ValidationOutput += e.Message;\r\n            }}\r\n        }}";
         }
 
         private string AddValidateFunction()

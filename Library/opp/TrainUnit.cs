@@ -4,8 +4,10 @@ namespace opp
 	[XmlRoot(Namespace = "https://erju.org/opp", ElementName = "trainUnit")]
 	public class TrainUnit
 	{
-		[XmlElement(Order=0)]		public opp.PhysicalTrainUnitIdentifier? physicalTrainUnit {get;set;}
-		[XmlElement(Order=1)]		public opp.OperationalTrainCategory? operationalTrainCategory {get;set;}
+		[XmlElement(Order=0)]
+		public opp.PhysicalTrainUnitIdentifier? physicalTrainUnit {get;set;}
+		[XmlElement(Order=1)]
+		public opp.OperationalTrainCategory? operationalTrainCategory {get;set;}
 		[XmlArray(Order=2)]
 		[XmlArrayItem("operationalConsist", Namespace = "https://erju.org/")]
 		public List<opp.OperationalConsist>? operationalConsists;

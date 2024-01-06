@@ -5,14 +5,14 @@ namespace eng
 	public class BaliseGroup
 	{
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("m_version")]
 		public ss026.ETCSVersion m_version {get;set;}
 		[XmlAttribute("q_link")]
 		public bool q_link {get;set;}
 		[XmlAttribute("telegram")]
-		public string telegram {get;set;}
+		public string? telegram {get;set;}
 		[XmlAttribute("telegramChecksum")]
-		public string telegramChecksum {get;set;}
+		public string? telegramChecksum {get;set;}
 	}
 }

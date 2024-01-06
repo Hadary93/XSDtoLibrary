@@ -10,6 +10,6 @@ namespace opp
 		[XmlAttribute("type")]
 		public opp.TrainProtectionType type {get;set;}
 		[XmlAttribute("etcsVersions")]
-		public string etcsVersions {get;set;}
+		public string? etcsVersions {get;set;}
 	}
 }

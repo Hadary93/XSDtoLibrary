@@ -5,7 +5,7 @@ namespace eng
 	public class NationalBorderAccuracy
 	{
 		[XmlAttribute("nationalBorderId")]
-		public string nationalBorderId {get;set;}
+		public string? nationalBorderId {get;set;}
 		[XmlAttribute("accuracy")]
 		public uint accuracy {get;set;}
 	}

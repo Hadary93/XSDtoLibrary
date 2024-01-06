@@ -14,6 +14,6 @@ namespace tp
 		[XmlArrayItem("fieldObjectController", Namespace = "https://erju.org/")]
 		public List<tp.FieldObjectController>? fieldObjectControllers;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 	}
 }

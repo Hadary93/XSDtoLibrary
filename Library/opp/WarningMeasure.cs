@@ -11,6 +11,6 @@ namespace opp
 		[XmlArrayItem("event", Namespace = "https://erju.org/")]
 		public List<opp.WarningMeasureEvent>? events;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 	}
 }

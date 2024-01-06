@@ -7,7 +7,7 @@ namespace ato
 		[XmlAttribute("nidTP")]
 		public uint nidTP {get;set;}
 		[XmlAttribute("name")]
-		public string name {get;set;}
+		public string? name {get;set;}
 		[XmlAttribute("pos")]
 		public uint pos {get;set;}
 		[XmlAttribute("stopLocationTolerance")]

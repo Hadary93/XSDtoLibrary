@@ -26,9 +26,9 @@ namespace infra
 		[XmlArrayItem("tractionSystem", Namespace = "https://erju.org/")]
 		public List<infra.TractionSystem>? tractionSystems;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("versionTimestamp")]
-		public string versionTimestamp {get;set;}
+		public string? versionTimestamp {get;set;}
 		[XmlAttribute("gauge")]
 		public infra.TrackGaugeType gauge {get;set;}
 		[XmlAttribute("loadingGaugeTypes")]

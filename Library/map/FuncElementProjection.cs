@@ -4,7 +4,8 @@ namespace map
 	[XmlRoot(Namespace = "https://erju.org/map", ElementName = "funcElementProjection")]
 	public class FuncElementProjection
 	{
-		[XmlElement(Order=0)]		public map.FuncElementRef? elementRef {get;set;}
+		[XmlElement(Order=0)]
+		public map.FuncElementRef? elementRef {get;set;}
 		[XmlAttribute("x")]
 		public double x {get;set;}
 		[XmlAttribute("y")]

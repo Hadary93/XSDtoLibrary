@@ -7,7 +7,7 @@ namespace opp
 		[XmlAttribute("type")]
 		public opp.TrainCategoryType type {get;set;}
 		[XmlAttribute("description")]
-		public string description {get;set;}
+		public string? description {get;set;}
 		[XmlAttribute("trainUsage")]
 		public opp.TrainUsageType trainUsage {get;set;}
 	}

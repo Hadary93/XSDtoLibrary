@@ -20,6 +20,6 @@ namespace eng
 		[XmlArrayItem("bufferStop", Namespace = "https://erju.org/")]
 		public List<eng.BufferStopAccuracy>? bufferStops;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 	}
 }

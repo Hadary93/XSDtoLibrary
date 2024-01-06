@@ -1,5 +1,4 @@
 ﻿using Generators;
-using System.IO;
 using System.Xml;
 using System.Xml.Linq;
 using XSDtoLibrary.Generators;
@@ -8,9 +7,8 @@ class Program
 {
     public static void Main()
     {
-       // GenerateAllCode();
+       GenerateAllCode();
 
-        
        GenerateAllTets();
     }
 

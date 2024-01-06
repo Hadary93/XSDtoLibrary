@@ -6,8 +6,8 @@ namespace eng
 	{
 		[XmlArray(Order=0)]
 		[XmlArrayItem("dangerPoint", Namespace = "https://erju.org/")]
-		public List<DangerPointRef?>? dangerPoints;
+		public List<DangerPointRef>? dangerPoints;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 	}
 }

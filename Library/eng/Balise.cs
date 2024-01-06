@@ -8,7 +8,7 @@ namespace eng
 		[XmlArrayItem("etcsPacket", Namespace = "https://erju.org/")]
 		public List<ss026.BalisePacket>? etcsPackets;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("fixed")]
 		public bool _fixed {get;set;}
 		[XmlAttribute("q_updown")]
@@ -22,12 +22,12 @@ namespace eng
 		[XmlAttribute("standardSize")]
 		public bool standardSize {get;set;}
 		[XmlAttribute("sleeperFastening")]
-		public string sleeperFastening {get;set;}
+		public string? sleeperFastening {get;set;}
 		[XmlAttribute("baliseMountingSystem")]
-		public string baliseMountingSystem {get;set;}
+		public string? baliseMountingSystem {get;set;}
 		[XmlAttribute("designType")]
-		public string designType {get;set;}
+		public string? designType {get;set;}
 		[XmlAttribute("locationReferenceMarker")]
-		public string locationReferenceMarker {get;set;}
+		public string? locationReferenceMarker {get;set;}
 	}
 }

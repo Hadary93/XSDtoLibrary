@@ -5,12 +5,12 @@ namespace infra
 	public class SimplePoint
 	{
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("reversalTime")]
 		public uint reversalTime {get;set;}
 		[XmlAttribute("pointLeft")]
-		public string pointLeft {get;set;}
+		public string? pointLeft {get;set;}
 		[XmlAttribute("pointRight")]
-		public string pointRight {get;set;}
+		public string? pointRight {get;set;}
 	}
 }

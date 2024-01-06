@@ -5,7 +5,7 @@ namespace eng
 	public class StopLocationAccuracy
 	{
 		[XmlAttribute("stopLocationId")]
-		public string stopLocationId {get;set;}
+		public string? stopLocationId {get;set;}
 		[XmlAttribute("accuracy")]
 		public uint accuracy {get;set;}
 	}

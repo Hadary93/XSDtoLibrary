@@ -4,7 +4,8 @@ namespace ato
 	[XmlRoot(Namespace = "https://erju.org/ato", ElementName = "axleLoadSpeedProfile")]
 	public class AxleLoadSpeedProfile
 	{
-		[XmlElement(Order=0)]		public ato.SegmentSection? segmentSection {get;set;}
+		[XmlElement(Order=0)]
+		public ato.SegmentSection? segmentSection {get;set;}
 		[XmlAttribute("speed")]
 		public uint speed {get;set;}
 		[XmlAttribute("trainEndApplicability")]

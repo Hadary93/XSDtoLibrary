@@ -8,8 +8,8 @@ namespace infra
 		[XmlArrayItem("tunnelTube", Namespace = "https://erju.org/")]
 		public List<infra.TunnelTube>? tunnelTubes;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("name")]
-		public string name {get;set;}
+		public string? name {get;set;}
 	}
 }

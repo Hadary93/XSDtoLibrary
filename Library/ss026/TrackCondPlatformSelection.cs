@@ -7,6 +7,7 @@ namespace ss026
 		[XmlArray(Order=0)]
 		[XmlArrayItem("tcspCond", Namespace = "https://erju.org/")]
 		public List<ss026.TCSPCondition>? tcspConds;
-		[XmlElement(Order=1)]		public D_trackinitRef? d_trackinit {get;set;}
+		[XmlElement(Order=1)]
+		public D_trackinitRef? d_trackinit {get;set;}
 	}
 }

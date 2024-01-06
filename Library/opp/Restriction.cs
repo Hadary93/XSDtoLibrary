@@ -11,10 +11,10 @@ namespace opp
 		[XmlArrayItem("event", Namespace = "https://erju.org/")]
 		public List<opp.RestrictionEvent>? events;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("activationTime")]
-		public string activationTime {get;set;}
+		public string? activationTime {get;set;}
 		[XmlAttribute("removalTime")]
-		public string removalTime {get;set;}
+		public string? removalTime {get;set;}
 	}
 }

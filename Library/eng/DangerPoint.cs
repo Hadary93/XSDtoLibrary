@@ -5,11 +5,11 @@ namespace eng
 	public class DangerPoint
 	{
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("name")]
-		public string name {get;set;}
+		public string? name {get;set;}
 		[XmlAttribute("trackEdge")]
-		public string trackEdge {get;set;}
+		public string? trackEdge {get;set;}
 		[XmlAttribute("pos")]
 		public uint pos {get;set;}
 	}

@@ -5,5 +5,5 @@ using System.Collections.Generic;
 public class ShuntingTrackRef
 {
 	[XmlAttribute(AttributeName ="ref")]
-	public string Ref {get;set;}
+	public string? Ref {get;set;}
 }

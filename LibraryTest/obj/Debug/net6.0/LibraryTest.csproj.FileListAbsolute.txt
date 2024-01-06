@@ -1,3 +1,8 @@
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\obj\Debug\net6.0\LibraryTest.csproj.AssemblyReference.cache
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\obj\Debug\net6.0\LibraryTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\obj\Debug\net6.0\LibraryTest.AssemblyInfoInputs.cache
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\obj\Debug\net6.0\LibraryTest.AssemblyInfo.cs
+C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\obj\Debug\net6.0\LibraryTest.csproj.CoreCompileInputs.cache
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\bin\Debug\net6.0\testhost.dll
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\bin\Debug\net6.0\testhost.exe
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
@@ -88,11 +93,6 @@ C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\bin\Debug\net6.0\zh-Hant\Microsof
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\bin\Debug\net6.0\Library.dll
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\bin\Debug\net6.0\Library.pdb
-C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\obj\Debug\net6.0\LibraryTest.csproj.AssemblyReference.cache
-C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\obj\Debug\net6.0\LibraryTest.GeneratedMSBuildEditorConfig.editorconfig
-C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\obj\Debug\net6.0\LibraryTest.AssemblyInfoInputs.cache
-C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\obj\Debug\net6.0\LibraryTest.AssemblyInfo.cs
-C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\obj\Debug\net6.0\LibraryTest.csproj.CoreCompileInputs.cache
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\obj\Debug\net6.0\LibraryTest.csproj.CopyComplete
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\obj\Debug\net6.0\LibraryTest.dll
 C:\Hadary\DB_Work\SD1\XSDtoLibrary\LibraryTest\obj\Debug\net6.0\refint\LibraryTest.dll

@@ -11,8 +11,8 @@ namespace infra
 		[XmlArrayItem("trackEdgeLink", Namespace = "https://erju.org/")]
 		public List<infra.TrackEdgeLink>? trackEdgeLinks;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("versionTimestamp")]
-		public string versionTimestamp {get;set;}
+		public string? versionTimestamp {get;set;}
 	}
 }

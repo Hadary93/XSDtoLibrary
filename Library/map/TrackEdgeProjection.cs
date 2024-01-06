@@ -8,6 +8,6 @@ namespace map
 		[XmlArrayItem("coordinate", Namespace = "https://erju.org/")]
 		public List<map.TrackEdgeCoordinate>? coordinates;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 	}
 }

@@ -5,7 +5,7 @@ namespace eng
 	public class BufferStopAccuracy
 	{
 		[XmlAttribute("bufferStopId")]
-		public string bufferStopId {get;set;}
+		public string? bufferStopId {get;set;}
 		[XmlAttribute("accuracy")]
 		public uint accuracy {get;set;}
 	}

@@ -23,7 +23,6 @@ namespace Templates
 
             MakeFile(folderPath, fileContent, ClassName, nameSpace);
         }
-
         private string CreateFileContent()
         {
             string content = $"{usings}\n";
@@ -71,7 +70,7 @@ namespace Templates
         }
         private string SingleElement(XElement xElement, int order)
         {
-            string content = $"\t\t[XmlElement(Order={order})]"; ;
+            string content = $"\t\t[XmlElement(Order={order})]\n"; ;
 
             var name = MapAttrName(GetName(xElement));
             var type = MapType(GetType(xElement));
@@ -108,7 +107,7 @@ namespace Templates
 
             if (targetElement?.Attribute("maxOccurs") == null)
             {
-                reference = "Ref?";
+                reference = "Ref";
 
                 AdditionalClassFile(targetElement);
 

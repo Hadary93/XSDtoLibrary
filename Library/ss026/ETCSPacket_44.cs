@@ -9,6 +9,6 @@ namespace ss026
 		[XmlAttribute("nid_ntc")]
 		public uint nid_ntc {get;set;}
 		[XmlAttribute("otherData")]
-		public string otherData {get;set;}
+		public string? otherData {get;set;}
 	}
 }

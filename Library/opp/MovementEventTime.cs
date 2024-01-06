@@ -7,6 +7,6 @@ namespace opp
 		[XmlAttribute("type")]
 		public opp.MovementEventTimeType type {get;set;}
 		[XmlAttribute("dateTime")]
-		public string dateTime {get;set;}
+		public string? dateTime {get;set;}
 	}
 }

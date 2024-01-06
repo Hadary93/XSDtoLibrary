@@ -5,7 +5,7 @@ namespace opp
 	public class PassengerTransferActivity
 	{
 		[XmlAttribute("waitingForEvent")]
-		public string waitingForEvent {get;set;}
+		public string? waitingForEvent {get;set;}
 		[XmlAttribute("transferDuration")]
 		public uint transferDuration {get;set;}
 	}

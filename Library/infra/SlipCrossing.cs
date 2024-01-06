@@ -6,10 +6,10 @@ namespace infra
 	{
 		[XmlArray(Order=0)]
 		[XmlArrayItem("simplePoint", Namespace = "https://erju.org/")]
-		public List<SimplePointRef?>? simplePoints;
+		public List<SimplePointRef>? simplePoints;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("crossing")]
-		public string crossing {get;set;}
+		public string? crossing {get;set;}
 	}
 }

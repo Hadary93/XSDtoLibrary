@@ -14,6 +14,6 @@ namespace eng
 		[XmlArrayItem("referenceMarker", Namespace = "https://erju.org/")]
 		public List<eng.MileageReferenceMarker>? referenceMarkers;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 	}
 }

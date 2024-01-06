@@ -5,9 +5,9 @@ namespace opp
 	public class WarningMeasureEvent
 	{
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("warningArea")]
-		public string warningArea {get;set;}
+		public string? warningArea {get;set;}
 		[XmlAttribute("activation")]
 		public bool activation {get;set;}
 		[XmlAttribute("alignment")]

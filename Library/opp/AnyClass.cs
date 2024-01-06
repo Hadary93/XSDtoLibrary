@@ -5,8 +5,8 @@ namespace opp
 	public class AnyClass
 	{
 		[XmlAttribute("className")]
-		public string className {get;set;}
+		public string? className {get;set;}
 		[XmlAttribute("content")]
-		public string content {get;set;}
+		public string? content {get;set;}
 	}
 }

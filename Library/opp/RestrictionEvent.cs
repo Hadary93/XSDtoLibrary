@@ -5,9 +5,9 @@ namespace opp
 	public class RestrictionEvent
 	{
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 		[XmlAttribute("restrictions")]
-		public string restrictions {get;set;}
+		public string? restrictions {get;set;}
 		[XmlAttribute("start")]
 		public bool start {get;set;}
 		[XmlAttribute("alignment")]

@@ -11,6 +11,6 @@ namespace ato
 		[XmlArrayItem("timingPointsMappingItem", Namespace = "https://erju.org/")]
 		public List<ato.TimingPointMapping>? timingPointsMapping;
 		[XmlAttribute("id")]
-		public string id {get;set;}
+		public string? id {get;set;}
 	}
 }

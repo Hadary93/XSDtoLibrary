@@ -5,7 +5,7 @@ namespace eng
 	public class EtcsMarkerAccuracy
 	{
 		[XmlAttribute("markerId")]
-		public string markerId {get;set;}
+		public string? markerId {get;set;}
 		[XmlAttribute("accuracy")]
 		public uint accuracy {get;set;}
 	}
